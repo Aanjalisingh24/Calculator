@@ -1,0 +1,95 @@
+body{
+  background-color: rgb(170, 175, 161);
+}
+#heading{
+  text-align: center;
+}
+#wholediv{
+  background-color: rgba(0, 0, 0, 0.466);
+  height: 520px;
+  width: 350px;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+#shortdiv{
+  position: absolute;
+  top: 40%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  left: 2%;
+}
+#button{
+  height: 52px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: rgb(241, 238, 238);
+  font-weight: bolder;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#column{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 52%;
+  left: 75%;
+  row-gap: 10px;
+}
+#b2{
+  height: 52px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: rgb(241, 238, 238);
+  font-weight: bolder;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#col-1{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 52%;
+  row-gap: 10px;
+  left: 2%;
+  font-size: larger;
+  font-weight: bolder;
+}
+#col-2{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 52%;
+  row-gap: 10px;
+  left: 27%;
+  font-size: larger;
+  font-weight: bolder;
+}
+#col-3{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 52%;
+  row-gap: 10px;
+  left: 51%;
+  font-size: larger;
+}
+#result{
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 95%;
+  transform: translateX(-95%);
+  white-space: nowrap;
+}
+#b3{
+  height: 115px;
+  width: 80px;
+  border-radius: 20px;
+  background-color: rgb(250, 180, 5);
+  font-size: larger;
+  font-weight: bolder;
+}
